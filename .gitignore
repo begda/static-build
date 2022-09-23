@@ -1,0 +1,14 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+*.zip
+
+.idea
+/web_work/
+/.idea/
+/dist/
+/src/assets_common/

@@ -1,0 +1,47 @@
+*, ::after, ::before {
+  border-style: none;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.page-index {
+  //中间内容
+  .page-body {
+  }
+
+}
+
+.space {
+  height: 10px;
+}
+
+.space-shu {
+  width: 10px;
+}
+
+.panel {
+  box-sizing: content-box;
+  background: #f8f8f8;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  .content{
+    box-sizing: content-box;
+  }
+  .top{
+    box-sizing: content-box;
+  }
+
+  /* 需要在外层套一个div,切记命名特殊一点,防止因缺少scoped，对其他页面会有冲突 */
+  .el-scrollbar__wrap {
+    overflow-x: hidden;
+  }
+}

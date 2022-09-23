@@ -1,0 +1,58 @@
+{
+  "id": "3630867",
+  "name": "动态诊断-公用项目图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "dtzd-",
+  "description": "动态诊断-公用项目图标",
+  "glyphs": [
+    {
+      "icon_id": "1013230",
+      "name": "工人",
+      "font_class": "gongren",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "4506836",
+      "name": "设备管理",
+      "font_class": "shebeiguanli",
+      "unicode": "ebb7",
+      "unicode_decimal": 60343
+    },
+    {
+      "icon_id": "12496100",
+      "name": "必须戴安全帽",
+      "font_class": "bixudaianquanmao",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "16854887",
+      "name": "扫地机器人",
+      "font_class": "saodijiqiren",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "22612626",
+      "name": "环境管理",
+      "font_class": "huanjingguanli",
+      "unicode": "e9e5",
+      "unicode_decimal": 59877
+    },
+    {
+      "icon_id": "23832225",
+      "name": "线性矿工男",
+      "font_class": "xianxingkuanggongnan",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "25885548",
+      "name": "机器人、智能-05",
+      "font_class": "a-jiqirenzhineng-05",
+      "unicode": "e898",
+      "unicode_decimal": 59544
+    }
+  ]
+}
