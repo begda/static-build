@@ -10,8 +10,6 @@ const dist =path.resolve('dist')
 const zipName=()=>{
     return description.split('/').join('-')+new Date().getTime()+'.zip'
 }
-
-console.log(zipName())
 const zipYasuo=(callback)=>{
     const archive = archiver('zip', {
         zlib: { level: 9 } // Sets the compression level.
