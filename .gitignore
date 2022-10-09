@@ -12,3 +12,5 @@ node_modules
 /.idea/
 /dist/
 /src/assets_common/
+/example/dist/
+/example_cjs/src/ba-modules/bower_components/

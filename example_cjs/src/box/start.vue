@@ -1,7 +1,7 @@
 <template>
   <panel>
     <div>
-      <div class="pl-20 pr-10 bg-cover py-16" style="background-image: url(assets/images/bg.png)">
+      <div class="pl-20 pr-10 bg-cover py-16" style="background-image: url(ba-assets/images/bg.png)">
         <div class="flex items-center justify-between">
           <div class="flex-grow">
             <div class="text-4xl font-bold text-white">
@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="w-96">
-            <img class="w-screen" src="assets/images/2.svg"/>
+            <img class="w-screen" src="ba-assets/images/2.svg"/>
           </div>
         </div>
       </div>

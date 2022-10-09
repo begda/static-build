@@ -1,6 +1,6 @@
 {
   "name": "@begda/static-build",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "@begda/静态编译",
   "title": "@begda/静态编译",
   "main": "lib/index.js",
@@ -13,45 +13,32 @@
     "type": "git",
     "url": "git@github.com:ElemeFE/element.git"
   },
-  "peerDependencies": {
-    "vue": "^2.5.17"
-  },
-  "homepage": "http://element.eleme.io",
+  "homepage": "https://blog.tianliaohui.com",
   "files": [
-    "dist",
-    "src"
+    "lib"
   ],
-  "config": {
-    "name": "writepress",
-    "config": {
-      "port": "8080"
-    },
-    "scripts": {
-      "start": "node server.js"
-    }
-  },
   "exports": {
     ".": {
       "require": "./lib/index.js",
       "import": "./lib/esm/index.js"
     }
   },
-  "bin": {
-    "begda": "lib/index.js"
-  },
   "scripts": {
-    "build:dist": "node build.js",
-    "build:all": " pnpm run build:dist && node zip.js",
-    "browser-sync:dist": "browser-sync start --server 'dist'   --files 'dist'",
-    "browser-sync:src": "browser-sync start --server 'src'   --files 'src'",
-    "说明": "这个可以设置这样的 --files '/**/*.css,/**/*.html,/**/*.js'",
-    "pnpm-install": "pnpm install --shamefully-hoist"
+    "build": "node /example/begda.config.js"
   },
   "dependencies": {
+    "archiver": "^5.3.1",
+    "browser-sync": "^2.27.10",
+    "glob": "^8.0.3",
+    "cheerio": "1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
   },
   "publishConfig": {
-    "tag": "1.0.0",
+    "tag": "0.0.1",
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   }
 }
+
