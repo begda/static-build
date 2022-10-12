@@ -1,6 +1,6 @@
 {
   "name": "@begda/static-build",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "@begda/静态编译",
   "title": "@begda/静态编译",
   "main": "lib/index.js",
