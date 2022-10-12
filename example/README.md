@@ -1,24 +1,67 @@
-# 开发说明
+# 使用说明
 
 ### 安装使用
+
 需要node开发环境
+
 ```shell
 npm init  #创建package.json 文件
 npm i @begda/static-build  #安装 静态html编译
 npm i browser-sync  #安装 监听文件变化,自动刷新浏览器
 ```
 
+### 目录结构
+
+```shell
+- example
+     - dist              # 输出目录
+     - src
+          - ba-assets    #打包的时候会把这个目录的所有文件都copy到 dist目录里
+          - ba-modules   #包管理器的文件目录
+          - index.html   #入口文件
+     - begda.config.js   #配置文件
+     - package.json
+```
+
+### html引入资源包例子
+
+```html
+
+<html>
+<head>
+    <link href="ba-assets/font/iconfont.css" rel="stylesheet">
+    <!--   对页面没影响,就是为了打包时候能带上elementUI字体文件用的 -->
+    <link href="ba-modules/node_modules/element-ui/lib/theme-chalk/fonts" rel="stylesheet">
+    <!--   引用自己的写css文件-->
+    <link href="ba-assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+html 内容
+<!-- 引用npm包管理器的js文件-->
+<script src="ba-modules/node_modules/tasktimer/lib/tasktimer.min.js"></script>
+<!-- 引用自己的写js文件-->
+<script src="ba-assets/js/init.js"></script>
+</body>
+</html>
+
+```
 
 ### begda.config.js 配置说明
+
 1. 极简配置
+
 ```js
 // 所有配置都是选填的,可以为空,如果不需要改文件夹名字,推荐极简配置
 import {defineConfig} from '@begda/static-build';
+
 defineConfig()
 ```
+
 2. 完整配置
+
 ```js
 import {defineConfig} from '@begda/static-build';
+
 defineConfig({
     projectName: projectName || prName(),  //项目名称,默认会取package.json的projectName
     entry: '/*.html',//   "/*.html"  '/index.html'  //支持 glob的 目录写法  入口文件
@@ -55,6 +98,7 @@ defineConfig({
 ```
 
 ### 运行命令
+
 ```shell
 "build": "node begda.config.js",   #编译切图好的文件,是生成一个文件夹, 可以直接发给同事
 "browser-sync:dist": "browser-sync start --server 'dist' --files 'dist'",  #启动生产测试环境浏览器

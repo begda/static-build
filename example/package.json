@@ -11,13 +11,10 @@
     "pnpm-install": "pnpm install --shamefully-hoist"
   },
   "devDependencies": {
-    "@jiaminghi/data-view": "^2.10.0",
     "bootstrap": "^5.2.0",
-    "echarts": "^5.3.3",
     "element-ui": "^2.15.9",
     "http-vue-loader": "^1.4.2",
     "jquery": "^3.6.1",
-    "tasktimer": "^3.0.0",
     "vue": "2"
   },
   "dependencies": {

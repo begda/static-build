@@ -1,0 +1,21 @@
+{
+  "name": "bower_components",
+  "description": "",
+  "main": "",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tailwindcss": "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css",
+    "jquery.3.6.1": "https://code.jquery.com/jquery-3.6.1.min.js"
+  }
+}

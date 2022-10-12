@@ -14,3 +14,4 @@ node_modules
 /src/assets_common/
 /example/dist/
 /example_cjs/src/ba-modules/bower_components/
+/example/src/ba-modules/
