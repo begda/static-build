@@ -7,9 +7,9 @@
   "type": "module",
   "scripts": {
     "pnpm-install": "pnpm install --shamefully-hoist",
-    "publish:打补丁": "npm version patch && npm publish",
-    "publish:小改": "npm version minor && npm publish",
-    "publish:重大更新": "npm version major && npm publish"
+    "npm-publish:打补丁": "npm version patch && npm publish",
+    "npm-publish:小改": "npm version minor && npm publish",
+    "npm-publish:重大更新": "npm version major && npm publish"
   },
   "keywords": [
     "static-build",
