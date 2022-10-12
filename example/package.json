@@ -1,7 +1,7 @@
 {
   "name": "@begda/example",
   "version": "0.0.1",
-  "description": "@begda/示例",
+  "description": "切图文件包管理的示例代码",
   "projectName":"@begda/示例",
   "type": "module",
   "scripts": {

@@ -5,8 +5,12 @@
   "title": "@begda/静态编译",
   "main": "lib/index.js",
   "type": "module",
+  "scripts": {
+    "pnpm-install": "pnpm install --shamefully-hoist"
+  },
   "keywords": [
     "static-build",
+    "html-static-build",
     "begda"
   ],
   "repository": {
