@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElemeFE/element.git"
+    "url": "github.com/begda/static-build.git"
   },
   "homepage": "https://blog.tianliaohui.com",
   "files": [
