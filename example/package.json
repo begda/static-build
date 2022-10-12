@@ -1,13 +1,26 @@
 {
   "name": "@begda/example",
   "version": "0.0.1",
-  "description": "切图文件包管理的示例代码",
-  "projectName":"@begda/示例",
+  "description": "@begda/示例",
+  "projectName": "@begda/示例",
   "type": "module",
   "scripts": {
     "build": "node begda.config.js",
     "browser-sync:dist": "browser-sync start --server 'dist'   --files 'dist'",
     "browser-sync:src": "browser-sync start --server 'src'   --files 'src'",
     "pnpm-install": "pnpm install --shamefully-hoist"
+  },
+  "devDependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "bootstrap": "^5.2.0",
+    "echarts": "^5.3.3",
+    "element-ui": "^2.15.9",
+    "http-vue-loader": "^1.4.2",
+    "jquery": "^3.6.1",
+    "tasktimer": "^3.0.0",
+    "vue": "2"
+  },
+  "dependencies": {
+    "jquery.nicescroll": "^3.7.6"
   }
 }
