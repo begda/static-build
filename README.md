@@ -7,9 +7,9 @@
       - zip.js     #压缩打包代码
 ```
 ### 演示demo在 example文件夹
-> [demo目录](example) , 运行效果在 demo里运行命令查看
+> [demo目录](https://github.com/begda/static-build/tree/main/example) , 运行效果在 demo里运行命令查看
 > 
-> [demo使用说明](example/README.md)
+> [demo使用说明](https://github.com/begda/static-build/blob/main/example/README.md)
 
 
 ### package.json 发包必须配置说明
