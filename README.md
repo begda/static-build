@@ -85,6 +85,10 @@ npm view @begda/static-build versions  #查看远端已经发布的@begda/static
 # patch：这个是补丁的意思，补丁最合适；
 # minor：这个是小修小改；
 # major：这个是大改咯；
+# 版本号怎么增加：
+# 比如我想来个1.0.1版本，注意，是最后一位修改了增1，那么命令：npm version patch
+# 比如我想来个1.1.0版本，注意，是第二位修改了增1，那么命令： npm version minor
+# 比如我想来个2.0.0版本，注意，是第一位修改了增1，那么命令： npm version major
 npm version <update_type> 
 
 npm publish    #运行发布包

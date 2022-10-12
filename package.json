@@ -1,15 +1,18 @@
 {
   "name": "@begda/static-build",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "@begda/静态编译",
   "title": "@begda/静态编译",
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
     "pnpm-install": "pnpm install --shamefully-hoist",
-    "npm-publish:打补丁": "npm version patch && npm publish",
-    "npm-publish:小改": "npm version minor && npm publish",
-    "npm-publish:重大更新": "npm version major && npm publish"
+    "npm-撤回上次发布的包-仅限24小时内": "npm unpublish @begda/static-build --force",
+    "npm-查看服务器版本号": "npm view @begda/static-build versions",
+    "npm-发布:第一次": "npm publish",
+    "npm-发布:打补丁": "npm version patch && npm publish",
+    "npm-发布:小改": "npm version minor && npm publish",
+    "npm-发布:重大更新": "npm version major && npm publish"
   },
   "keywords": [
     "static-build",
